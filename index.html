@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Criptografador/Descriptografador</title>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <p>
+                Criptografador/Descriptografador
+            </p>    
+        </h1>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <div class="botoes">
+            <input value="Criptografar" id="botao-de-codificar" type="button" class="button">
+            <button class="button" onclick="decodificar()">Descriptograr</button>
+            <button class="button" id="copy">Copiar &#128203;</button>
+        </div>
+        <div class="principal">
+            <div class="div-entrada">
+                <form name="decoder" action="">
+                    <p>Entrada</p>
+                    <textarea id="entrada" name="form1" type="text" class="entrada"></textarea>
+
+            </div>
+            <div class="div-saida">
+                <p>Saída</p>
+                <textarea id="saida" name="form2" type="text" class="saida"></textarea>
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;Copyright Criptografador/Descriptografador - 2023</p>
+    </footer>
+</body>
+<script src="./script.js">
+
+</script>
+
+</html>
